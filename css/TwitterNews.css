@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul, li {
+	margin: 5px;
+	padding: 5px;
+	list-style: none;
+}
+.abgne-news-scroll {
+	border: 5px double #f39;
+	width: 450px;
+	height: 250px;
+	overflow: hidden;
+	margin: auto auto;
+	position: relative;
+}
+.abgne-news-scroll li {
+	background-repeat: repeat;
+	background-position: 5px 10px;
+	padding: 5px 0 5px 19px;
+	background-image: -webkit-linear-gradient(270deg,rgba(241,236,97,1.00) 0%,rgba(219,116,117,1.00) 45.60%,rgba(151,245,92,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(241,236,97,1.00) 0%,rgba(219,116,117,1.00) 45.60%,rgba(151,245,92,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(241,236,97,1.00) 0%,rgba(219,116,117,1.00) 45.60%,rgba(151,245,92,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(241,236,97,1.00) 0%,rgba(219,116,117,1.00) 45.60%,rgba(151,245,92,1.00) 100%);
+}

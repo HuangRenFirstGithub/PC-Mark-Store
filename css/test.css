@@ -1,0 +1,19 @@
+@charset "utf-8";
+body
+{
+	width:100%;
+	height:auto;
+	
+}
+h3
+{
+	font-size:1.5em;
+	font-family:"微軟正黑體", "標楷體", "Adobe 黑体 Std R", "Adobe 繁黑體 Std B";
+	font-weight:bold;
+	color:#E114BA
+}
+
+img
+{
+	margin: auto 150px;
+}

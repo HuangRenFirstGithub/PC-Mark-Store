@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: auto auto;
+	background-color: rgba(42,42,42,1.00);
+}
+/*距離上方50像素*/
+#headertop{
+	margin-top:15px;
+}
+/*navbar高度80像素*/
+.Mynavbar{
+	height: 70px;
+	background-color: rgba(0,71,138,1.00);
+}
+.navbar-toggle{
+	background-color:brown;
+}
+/*navbar文字樣式*/
+.allText{
+	text-align: center;
+	font-size: 1.8em;
+	font-weight: bolder;
+}
+
+
+.righttext{
+	background-color: rgba(0,71,138,1.00);
+
+}
+.righttext:link{
+	color:aquamarine;
+	background-color: rgba(0,71,138,1.00);
+
+}
+
+/*專案首頁連結按鈕樣式1*/
+.brandtext:link{
+	color: chocolate;
+	font-size: 1.2em;
+	padding-top: 15px;
+	text-align: center;
+}
+/*專案首頁連結按鈕樣式2*/
+.brandtext:hover{
+	font-size: 1.4em;
+	padding-top: 15px;
+	text-align: center;
+}
+
+
+/*navbar 滑鼠滑過樣式*/
+.nav.navbar-nav li a:hover  {
+	border-bottom: 3px solid rgba(251,71,74,1.00);
+	color: rgba(255,107,3,1.00);
+	font-size: 1.2em;
+	font-style: oblique;
+	font-weight: bold;
+	text-align: center;
+	font-family: "微軟正黑體", "標楷體", sans-serif, "Adobe Caslon Pro", "Adobe Caslon Pro Bold", "Adobe Devanagari", "Adobe 繁黑體 Std B", "Adobe 楷体 Std R", "Adobe 明體 Std L", "Adobe 黑体 Std R", "Arial Narrow", Arial, "Arial Black", "Segoe UI", "Segoe UI Semibold", "Adobe Gothic Std B";
+}
+
+/*navbar 滑鼠按下樣式*/
+.nav.navbar-nav li a:active {
+	font-size: 1.4em;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	color: rgba(46,236,50,1.00);
+	font-family: "微軟正黑體", "標楷體", sans-serif, "Adobe Caslon Pro", "Adobe Caslon Pro Bold", "Adobe Devanagari", "Adobe 繁黑體 Std B", "Adobe 楷体 Std R", "Adobe 明體 Std L", "Adobe 黑体 Std R", "Arial Narrow", Arial, "Arial Black", "Segoe UI", "Segoe UI Semibold", "Adobe Gothic Std B";
+}
+
+
+
+
+/*.dropdown-menu li a:hover {
+	background-color:gold;
+	color:deepskyblue;
+	font-size: 2em;
+	font-weight:bold;
+	text-align: center;
+}*/
+/*.dropdown-menu li a:link {
+	font-size: 1em;
+	font-weight:bold;
+	color:brown;
+	text-align: center;
+}*/
+
+
+
+/*下拉式選單內容樣式*/
+.menutext{
+	width: 100%;
+	color: springgreen;
+	text-align: center;
+	font-family: "微軟正黑體", "標楷體", "sans-serif", "Adobe Caslon Pro", "Adobe Caslon Pro Bold", "Adobe Devanagari", "Adobe 繁黑體 Std B", "Adobe 楷体 Std R", "Adobe 明體 Std L", "Adobe 黑体 Std R", "Arial Narrow", Arial, "Arial Black", "Segoe UI", "Segoe UI Semibold", "Adobe Gothic Std B";
+	font-size: 1.2em;
+}
+.ultext{
+	background-color: rgba(0,71,138,1.00);
+	padding-top: 0px;
+}
+
+/*輪播動畫距離上方90像素*/
+.bannercustom{
+	margin-top: 75px;
+	
+}
+.blank{
+	margin-top: 3px;
+	margin-bottom: 3px;
+	background-color:darkgrey;
+	width: 100%;
+	height: 2px;
+}
+/*回到最上方*/
+.container-fluid .top {
+	text-align: right;
+}
+.top a img {
+	padding-right: 10px;
+	padding-bottom: 0px;
+}

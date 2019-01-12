@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;  
+}
+ 
+a img {
+	border: none;
+}
+ 
+#abgne-block-20110406 {
+	margin: 0 auto;
+	width: 800px;	/* 框架圖片的寬 */
+	height: 200px;	/* 框架圖片的高 */
+	position: relative;
+}
+ 
+#abgne-block-20110406 a.prev, #abgne-block-20110406 a.next {
+	position: absolute;
+	top: 85px;
+	display: block;
+	width: 56px;	/* 左右鈕圖片的寬 */
+	height: 56px;	/* 左右鈕圖片的高 */
+	text-indent: -9999px;
+}
+ 
+#abgne-block-20110406 .prev {
+	background: url('../images/left.png') no-repeat;
+}
+ 
+#abgne-block-20110406 .next {
+	background: url('../images/right.png') no-repeat;
+	right: 0;
+}
+ 
+#abgne-block-20110406 .slides {
+	overflow: hidden;
+	position: relative;
+	top: 10px;
+	left: 0px;
+	width: 800px;	/* 框架中間區塊的寬 */
+	height: 200px;	/* 框架中間區塊的高 */
+}
+ 
+#abgne-block-20110406 .slides ul {
+	position: absolute;
+	width: 9990px;
+	height: 100%;
+}
+ 
+#abgne-block-20110406 .slides li {
+	width: 800px;	/* 框架中間區塊的寬 */
+	height: 100%;
+	float: left;
+}

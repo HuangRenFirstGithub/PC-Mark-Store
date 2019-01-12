@@ -1,0 +1,34 @@
+@charset "utf-8";
+a img {
+	border: none;
+}
+#abgne_fade_pic {
+	position: relative;
+	width: 500px;
+	height: 333px;
+	border: 1px solid #ccc;
+}
+#abgne_fade_pic a.ad {
+	position: absolute;	/* 讓圖片疊在一起 */
+}
+#abgne_fade_pic .control {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+#abgne_fade_pic .control a {
+	display: inline-block;
+	padding: 3px;
+	margin: 0 3px;
+	width: 16px;
+	color: #fff;
+	background: #000;
+	text-align: center;
+	font-size: 16px;
+	text-decoration: none;
+}
+#abgne_fade_pic .control a.on {
+	font-weight: bold;
+	color: #f00;
+}
+
