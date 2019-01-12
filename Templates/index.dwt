@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>RWDProject_歡迎來到我的Bootstrap專案首頁</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="../css/lightbox.min.css">
+<link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="../css/indexstyle.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../js/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap.js"></script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<script src="../js/lightbox-plus-jquery.min.js"></script>
+<body>
+<div class="container-fluid">
+	<div class="row">
+		<!--第1層-->
+		<div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+			<!-產生漢堡選單-->
+			<nav class="navbar navbar-inverse navbar-fixed-top Mynavbar allText">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" id="headertop" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand brandtext" href="../index.html" alt="歡迎來到我的專案首頁" title="我的專案首頁"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;專案首頁</a>
+											
+					</div>
+					<!--裡面的選單-->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="../index.html" target="_self" title="我的網站首頁">關於我們<span class="sr-only">(current)</span></a></li>					
+							<li><a href="../product.html" target="_self" title="我的作品頁面" alt="歡迎來到我的作品頁面">作品介紹</a></li>
+							<li><a href="../ContactUs.html" target="_self" title="聯絡我們頁面" alt="請將問題提交給我們,收到之後即刻做回覆">聯絡我們</a></li>							
+						</ul>
+						<!--表單-->
+<!--						<form class="navbar-form navbar-right">
+        					<div class="form-group">
+          						<input type="text" class="form-control" placeholder="Search">
+       						</div>
+        					<button type="submit" class="btn btn-success btn-lg" title="點我搜尋內容">點我搜尋</button>
+      					</form>
+-->						<!--下拉式選單-->
+      					<ul class="nav navbar-nav navbar-right">
+        					<li class="dropdown">
+          						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="線上影音教學選單">線上影音教學<span class="caret"></span></a>
+   						  	  <ul class="dropdown-menu menutext menuhover">
+									<li><a href="#">網頁設計</a></li>
+									<li><a href="#">視覺設計</a></li>
+									<li><a href="#">App開發</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">室內設計</a></li>
+       						  </ul>
+        					</li>
+      					</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->	
+			</nav><!--nav-->
+		</div>
+	</div>
+	<!--第二層輪播動畫-->
+	<div class="row">
+		<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 bannercustom">
+			<!--2-1輪播的小圓點-->
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  				</ol>
+			<!--2-2輪播圖片放置的地方-->
+				<div class="carousel-inner" role="listbox">
+				<!--第一張圖-->
+				<div class="item active">
+						<img src="https://picsum.photos/1900/500/?random" title="我是假圖1" class="img-responsive"  width="100%" alt="I come form picsum">
+				</div>
+				<!--第二張圖-->
+					<div class="item">
+						<img src="https://picsum.photos/1900/500/?gravity=west" title="我是假圖2" class="img-responsive" width="100%" alt="I come form picsum">
+					</div>
+				<!--第三張圖-->
+					<div class="item">
+						<img src="https://picsum.photos/1900/500/?gravity=center" title="我是假圖3" class="img-responsive" alt="I come form picsum" width="100%">
+
+					</div>
+  				</div>
+				<!--左右箭頭控制-->
+				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+  				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+	</div><!--row2-->
+</div><!--container-fluid-->
+
+</body>
+</html>
