@@ -2,17 +2,19 @@
 /* CSS Document */
 
 body {
-	margin: auto auto;
+	margin: 0px 0px;
+	padding: 0px 0px;
 	background-color: rgba(42,42,42,1.00);
 }
 /*距離上方50像素*/
 #headertop{
-	margin-top:15px;
+	padding-top:10px;
 }
 /*navbar高度80像素*/
 .Mynavbar{
+	width: 100%;
 	height: 70px;
-	background-color: rgba(0,71,138,1.00);
+	background-color: rgba(0,96,187,1.00);
 }
 .navbar-toggle{
 	background-color:brown;
@@ -20,13 +22,13 @@ body {
 /*navbar文字樣式*/
 .allText{
 	text-align: center;
-	font-size: 1.8em;
+	font-size: 1.5em;
 	font-weight: bolder;
 }
 
 
 .righttext{
-	background-color: rgba(0,71,138,1.00);
+	background-color: rgba(0,96,187,1.00);
 
 }
 .righttext:link{
@@ -35,23 +37,10 @@ body {
 
 }
 
-/*專案首頁連結按鈕樣式1*/
-.brandtext:link{
-	color: chocolate;
-	font-size: 1.2em;
-	padding-top: 15px;
-	text-align: center;
-}
-/*專案首頁連結按鈕樣式2*/
-.brandtext:hover{
-	font-size: 1.4em;
-	padding-top: 15px;
-	text-align: center;
-}
-
 
 /*navbar 滑鼠滑過樣式*/
 .nav.navbar-nav li a:hover  {
+	background-color:white;
 	border-bottom: 3px solid rgba(251,71,74,1.00);
 	color: rgba(255,107,3,1.00);
 	font-size: 1.2em;
@@ -87,7 +76,9 @@ body {
 	color:brown;
 	text-align: center;
 }*/
-
+.brandtext{
+	font-size:1em;
+}
 
 
 /*下拉式選單內容樣式*/
@@ -99,11 +90,10 @@ body {
 	font-size: 1.2em;
 }
 .ultext{
-	background-color: rgba(0,71,138,1.00);
-	padding-top: 0px;
+	background-color: rgba(0,96,187,1.00);
 }
 
-/*輪播動畫距離上方90像素*/
+/*輪播動畫距離上方75像素*/
 .bannercustom{
 	margin-top: 75px;
 	
@@ -118,7 +108,7 @@ body {
 
 /*資訊面板文字樣式*/
 .paneltop{
-	margin-top: 30px;
+	margin-top: 10px;
 }
 .panelleft{
 	margin:auto auto;
@@ -129,9 +119,9 @@ body {
 	background-image: -o-linear-gradient(0deg,rgba(255,177,122,1.00) 0%,rgba(204,106,20,1.00) 100%);
 	background-image: linear-gradient(90deg,rgba(255,177,122,1.00) 0%,rgba(204,106,20,1.00) 100%);
 }
-.panel-body p{
+.panel-body ol li p{
 	text-align: left;
-	font-size: 1.5em;
+	font-size: 1.8em;
 	font-weight: bolder;
 	font-family: "微軟正黑體", "標楷體", "sans-serif", "Adobe Caslon Pro", "Adobe Caslon Pro Bold", "Adobe Devanagari", "Adobe 繁黑體 Std B", "Adobe 楷体 Std R", "Adobe 明體 Std L", "Adobe 黑体 Std R", "Arial Narrow", Arial, "Arial Black", "Segoe UI", "Segoe UI Semibold", "Adobe Gothic Std B";
 	color: rgba(0,0,0,1.00);
@@ -181,8 +171,9 @@ body {
 }
 /*回到最上方*/
 .container-fluid .top {
-	text-align: right;
+	text-align: center;
 }
 .top a img {
 	padding-right: 10px;
+	padding-bottom: 2px;
 }
