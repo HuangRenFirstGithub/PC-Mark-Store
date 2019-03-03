@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PC Mark Store-歡迎來到我的Bootstrap專案首頁</title>
+<link rel="stylesheet" href="css/lightbox.min.css">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/indexstyle.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script src="js/lightbox-plus-jquery.min.js"></script>
+</head>
+<body>
+<div class="container-fluid" id="top">
+	<div class="row">
+		<!--第1層-->
+		<div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+			<!-產生漢堡選單-->
+			<nav class="navbar navbar-inverse navbar-fixed-top allText Mynavbar">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" id="headertop" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand brandtext" href="index.html" alt="歡迎來到我的專案首頁" title="我的專案首頁"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;PC Mark Store</a>
+					</div>
+					<!--裡面的選單-->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right righttext">
+							<li class="active"><a href="index.html" target="_self" title="我的網站首頁">關於我們<span class="sr-only">(current)</span></a></li>					
+							<li><a href="product.html" target="_blank" title="我的作品頁面" alt="歡迎來到我的作品頁面">產品介紹</a></li>
+							<li><a href="ContactUs.html" target="_blank" title="聯絡我們頁面" alt="請將問題提交給我們,收到之後即刻做回覆">聯絡我們</a></li>							
+						</ul>
+						<!--表單-->
+<!--						<form class="navbar-form navbar-right">
+        					<div class="form-group">
+          						<input type="text" class="form-control" placeholder="Search">
+       						</div>
+        					<button type="submit" class="btn btn-success btn-lg" title="點我搜尋內容">點我搜尋</button>
+      					</form>
+-->						<!--下拉式選單-->
+      					<ul class="nav navbar-nav navbar-right ultext">
+        					<li class="dropdown">
+          						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" title="電腦周邊商品選單">電腦周邊商品<span class="caret"></span></a>
+   						  	  <ul class="dropdown-menu menutext">
+									<li><a href="#">行動硬碟</a></li>
+									<li><a href="#">DIY電腦</a></li>
+									<li><a href="#">電腦擴充</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">線耗材</a></li>
+									<li><a href="#">印表機</a></li>
+       						  </ul>
+        					</li>
+      					</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->	
+			</nav><!--nav-->
+		</div>
+	</div>
+	<!--第二層輪播動畫-->
+	<div class="row">
+		<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 bannercustom">
+			<!--2-1輪播的小圓點-->
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  				</ol>
+			<!--2-2輪播圖片放置的地方-->
+				<div class="carousel-inner" role="listbox">
+				<!--第一張圖-->
+				<div class="item active">
+						<img src="images/Banner1_960_720.jpg" title="我是假圖1" class="img-responsive"  width="100%" alt="I come form CC0">
+					</div>
+				<!--第二張圖-->
+					<div class="item">
+						<img src="images/Banner2_960_720.jpg" title="我是假圖2" class="img-responsive" width="100%" alt="I come form CC0">
+					</div>
+				<!--第三張圖-->
+					<div class="item">
+						<img src="images/Banner3_960_720.jpg" title="我是假圖3" class="img-responsive" alt="I come form CC0" width="100%">
+
+					</div>
+  				</div>
+				<!--左右箭頭控制-->
+				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+  				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+	</div><!--row2-->
+</div><!--container-fluid-->
+<!--第3層 資訊面板-->
+<div class="container-fluid">
+	<!--3-1 左邊資訊面板-->
+	<div class="row paneltop">
+		<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 ">
+			<!--3-1-1 第一層-->
+			<div class="panel-group panelleft" id="accordion" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-info">
+					<div class="panel panel-heading" role="tab" id="headingOne">
+						<h4 class="panel-title">
+							<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								  &nbsp;&nbsp;關於我們
+							</a>
+					  	</h4>					
+					</div>
+					<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+						<div class="panel-body">
+   							<ol class="olStyle">
+								<li><p>本網站主要是在販賣電腦的周邊應用商品,網站中採用Bootstrap3和HTML5的架構所製成,Bootstrap是一組用於網站和網路應用程式開發的開源前端（所謂「前端」，指的是展現給終端使用者的介面</p>
+								</li>
+								<li><p>與之對應的「後端」是在伺服器上面執行的程式碼）框架，包括HTML、CSS及JavaScript的框架，提供字體排印、表單、按鈕、導航及其他各種元件及Javascript擴充套件，旨在使動態網頁和Web應用的開發更加容易。</p>
+								</li>	
+							</ol>	
+      					</div>
+					</div>
+				</div>
+<!--3-1-2 第2層-->
+				<div class="panel panel-primary">
+					<div class="panel panel-heading" role="tab" id="headingTwo">
+						<h4 class="panel-title">
+							<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+								 &nbsp;&nbsp;最新消息
+							</a>
+					  	</h4>					
+					</div>
+					<div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
+						<div class="panel-body">
+   							<ol class="olStyle">
+								<li><p>jQuery是開源軟體，使用MIT授權條款授權。jQuery的語法設計使得許多操作變得容易，如操作文件（document）、選擇文件物件模型（DOM）元素、建立動畫效果、處理事件、以及開發Ajax程式。jQuery也提供了給開發人員在其上建立外掛程式的能力。這使開發人員可以對底層互動與動畫、進階效果和進階主題化的元件進行抽象化。模組化的方式使jQuery函式庫能夠建立功能強大的動態網頁以及網路應用程式。</p>
+								</li>
+								<li><p>微軟和諾基亞已宣布在他們的平台上繫結jQuery。微軟最初在Visual Studio中整合了jQuery以便在微軟自己的ASP.NET AJAX框架和ASP.NET MVC Framework中使用，而諾基亞則在他的Web執行時元件開發平台中整合了jQuery。MediaWiki自從1.16版本後也開始使用jQuery</p>
+								</li>	
+							</ol>	
+      					</div>
+					</div>
+				</div>
+<!--3-1-3 第3層-->
+				<div class="panel panel-success">
+					<div class="panel panel-heading" role="tab" id="headingThree">
+						<h4 class="panel-title">
+							<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+								 &nbsp;&nbsp;產品快訊
+							</a>
+					  	</h4>					
+					</div>
+					<div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
+						<div class="panel-body">
+   							<ol class="olStyle">
+								<li>
+									<p>對於網站設計師和前端工程師來說，有別於過去需要針對各種裝置進行不同的設計，使用此種設計方式將更易於維護網頁,此概念於2010年5月由國外著名網頁設計師Ethan Marcotte所提出。</p>
+								</li>
+								<li>
+									<p>響應式網頁設計(Responsive Web Design)簡稱RWD，又稱適應性網頁、自適應網頁設計、回應式網頁設計、多螢網頁設計，這是一項開始於2011年由Ethan Marcotte 發明的術語 Responsive Web Design (RWD)。2012年後被公認為是日後網頁設計開發技術的趨勢，網站使用CSS3，以百分比的方式以及彈性的畫面設計，在不同解析度下改變網頁頁面的佈局排版，讓不同的設備都可以正常瀏覽同一網站，提供最佳的視覺體驗，是個因移動平台的用戶大量增加而想出的一個對應方法。 </p>
+								</li>	
+							</ol>	
+      					</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+		</div>
+<div class="blank"></div>
+<!--第4層產品型錄-->	
+		<div class="row">
+			<div class="col-md-6 col-sm-6 col-lg-6 col-xs-6">
+			<!--lightBox燈箱效果-->
+			<section class="testwidth">
+			<div>
+			<h1 class="text-danger text-center">產品介紹圖片</h1>
+			<!--第1張燈箱效果-->
+			<h4>電腦假圖1</h4>
+			  <a class="example-image-link" href="images/computer1-960_720.jpg" data-lightbox="example-set" data-title="專案首頁燈箱效果-電腦假圖1"><img class="example-image thumbnail" src="images/computer1-1-960_720.jpg" width="100%" title="我是電腦假圖1" alt="電腦假圖1"/></a>
+			<!--第2張燈箱效果-->
+			<h4>電腦假圖2</h4>			
+			  <a class="example-image-link" href="images/computer2-960_720.jpg" data-lightbox="example-set" data-title="專案首頁燈箱效果-電腦假圖2"><img class="example-image thumbnail" src="images/computer2-1-960_720.jpg" width="100%" title="我是電腦假圖2" alt="電腦假圖2" /></a>
+			<!--第3張燈箱效果-->
+			<h4>電腦假圖3</h4>
+			  <a class="example-image-link" href="images/computer3-960_720.jpg" data-lightbox="example-set" data-title="專案首頁燈箱效果-電腦假圖3"><img class="example-image thumbnail" src="images/computer3-1-960_720.jpg" width="100%" title="我是電腦假圖3" alt="電腦假圖3" /></a>
+			</div>
+		  </section>
+			</div>
+		<!--4-2-->
+		<div class="col-md-6 col-sm-6 col-lg-6 col-xs-6">
+			<section class="testwidth">
+				<div>							
+					<h1 class="text-danger text-center">產品介紹圖片</h1>
+					<!--第4張燈箱效果-->
+					<h4>電腦假圖4</h4>
+					  <a class="example-image-link" href="images/computer4-960_720.jpg" data-lightbox="example-set" data-title="專案首頁燈箱效果-電腦假圖4"><img class="example-image thumbnail" width="100%" src="images/computer4-1-960_720.jpg" title="我是電腦假圖4" alt="電腦假圖4"/></a>
+					<!--第5張燈箱效果-->
+					<h4>電腦假圖5</h4>
+					  <a class="example-image-link" href="images/computer5-960_720.jpg" data-lightbox="example-set" data-title="專案首頁燈箱效果-電腦假圖5"><img class="example-image thumbnail" width="100%" src="images/computer5-1-960_720.jpg" title="我是電腦假圖5" alt="電腦假圖5" /></a>
+					<!--第6張燈箱效果-->
+					<h4>電腦假圖6</h4>
+					  <a class="example-image-link" href="images/computer6-960_720.jpg" data-lightbox="example-set" data-title="專案首頁燈箱效果-電腦假圖6"><img class="example-image thumbnail" width="100%" src="images/computer6-1-960_720.jpg" title="我是電腦假圖6" alt="電腦假圖6" /></a>
+				</div>
+			</section>
+		</div>
+		</div>
+<a href="product.html" class="btn btn-lg btn-success btn-block">進入到產品銷售頁面</a>
+<div class="blank"></div>
+<!--第五層 影片介紹2019/1/8-->
+		<div class="row  gifCenter">
+			<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+				<h4 class="h4Gif">圖片GIF動畫</h4>
+				<div class="embed-responsive embed-responsive-16by9">
+					<img src="images/MyImageGif.gif" class="img-thumbnail img-responsive" width="100%" title="圖片Gif動畫" alt="我是圖片Gif動畫">
+				</div>
+			</div>
+			<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+				<h4 class="h4Gif">圖片GIF動畫-剪輯成影片</h4>
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe src="https://www.youtube.com/embed/CyCwaf1zgIU" width="100%" title="崁入外部影片" alt="我是外部崁入的影片"></iframe>
+				</div>
+			</div>
+		</div>
+	<!--第6層 footer-->
+<div class="blank"></div>
+	<div class="Myfooter">
+			<img src="images/footer.png" class="img-responsive" width="100%" title="頁尾版權宣告圖片" alt="頁尾版權宣告">
+	</div>
+	<div class="topstyle">
+		<h2 class="top"><a href="#top"><img  src="https://upload.cc/i1/2019/03/03/XwP4zm.png" title="TopBtn" alt="Back To Top"/></a></h2>
+	</div>
+</div>
+</body>
+</html>
