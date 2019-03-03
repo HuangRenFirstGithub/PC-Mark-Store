@@ -50,7 +50,7 @@ body {
 
 /*navbar 滑鼠按下樣式*/
 .nav.navbar-nav li a:active {
-	font-size: 1.4em;
+	font-size: 1.2em;
 	font-style: normal;
 	font-weight: bold;
 	text-align: center;
@@ -133,14 +133,23 @@ body {
 	font-weight: bold;
 	color: rgba(13,33,249,1.00);
 }
+
 /*回到最上方*/
+.topstyle{
+	margin-top: 75px;
+}
 .container-fluid .top {
-	text-align: center;
+	position: relative;
 }
-.top a img {
-	padding-right: 10px;
-	padding-bottom: 2px;
+
+.top img {
+	position: fixed;
+	width: 40px;
+	height:40px;
+	right: 30px;
+	bottom: 10px;
 }
+
 
 /*表單背景*/
 .formbg{
@@ -151,11 +160,3 @@ body {
 	background-color: aquamarine;
 }
 
-/*回到最上方*/
-.top {
-	text-align: center;
-}
-.top a img {
-	padding-right: 10px;
-	padding-bottom: 0px;
-}

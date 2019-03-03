@@ -6,11 +6,12 @@ body {
 	padding: 0px 0px;
 	background-color: rgba(42,42,42,1.00);
 }
-/*距離上方50像素*/
+/*距離上方10像素*/
 #headertop{
 	padding-top:10px;
+	box-sizing: border-box;
 }
-/*navbar高度80像素*/
+/*navbar高度70像素*/
 .Mynavbar{
 	width: 100%;
 	height: 70px;
@@ -41,7 +42,7 @@ body {
 /*navbar 滑鼠滑過樣式*/
 .nav.navbar-nav li a:hover  {
 	background-color:white;
-	border-bottom: 3px solid rgba(251,71,74,1.00);
+	border-bottom: 2px solid rgba(251,71,74,1.00);
 	color: rgba(255,107,3,1.00);
 	font-size: 1.2em;
 	font-style: oblique;
@@ -52,7 +53,7 @@ body {
 
 /*navbar 滑鼠按下樣式*/
 .nav.navbar-nav li a:active {
-	font-size: 1.4em;
+	font-size: 1.2em;
 	font-style: normal;
 	font-weight: bold;
 	text-align: center;
@@ -128,7 +129,7 @@ body {
 	text-indent: 10px;
 }
 .olStyle{
-	list-style-image: url(../images/Logo.png);
+	list-style-image:url(https://upload.cc/i1/2019/03/03/AzmPS9.png);
 	list-style-type: none;
 }
 
@@ -170,10 +171,17 @@ body {
 	border-radius: 5px;
 }
 /*回到最上方*/
-.container-fluid .top {
-	text-align: center;
+.topstyle{
+	margin-top: 75px;
 }
-.top a img {
-	padding-right: 10px;
-	padding-bottom: 2px;
+.container-fluid .top {
+	position: relative;
+}
+
+.top img {
+	position: fixed;
+	width: 40px;
+	height:40px;
+	right: 30px;
+	bottom: 10px;
 }
